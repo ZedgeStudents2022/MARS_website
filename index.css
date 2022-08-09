@@ -18,37 +18,39 @@ body{
     background: rgb(30,26,81);
     background: linear-gradient(180deg, rgba(30,26,81,1) 0%, rgba(16,14,46,1) 100%);
     background: size 100%;
- 
 }
 
 h1{
     margin-top: 0;
-    font-size:200%;
+    font-size: 50px;
     color: white;
 }
 
-
+h2{
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
 
 h4{
     color: lightgray;
-    font-size: small;
+    font-size: 30px;
 }
 
 
 #mainLogo{
-    width:100px;
-    height: 100px;
+    width:200px;
 }
 
 #playButton{
-    width:200px;
+    width:30%;
 }
 
 .box{
     display: flex;
     gap: 20px;
-    width: 50%;
     justify-content: center;
+    width: 100%;
 }
 
 .images{
@@ -58,7 +60,7 @@ h4{
 
 .screenshot{
     border-radius:  10%;
-    width:40%;
+    width:350px;
 }
 
 
@@ -67,16 +69,16 @@ h4{
     margin: auto;
     align-items: center;
     gap: 20px;
-    width: 80%;
     flex-direction: row;
     margin-bottom: 50px;
     justify-content: center;
-    
+    padding: 20px;
 }
 
 .imageText{
-    width: 50%;
     text-align: center;
     color: white;
-   
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
 }
