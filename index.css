@@ -10,7 +10,15 @@ body{
     font-family: 'Verdana', monospace;
     color: white;
 
-
+}
+.main{
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    background: rgb(30,26,81);
+    background: linear-gradient(180deg, rgba(30,26,81,1) 0%, rgba(16,14,46,1) 100%);
+    background: size 100%;
+ 
 }
 
 h1{
@@ -36,40 +44,30 @@ h4{
     width:200px;
 }
 
-
-
-.screenshot{
-    border-radius:  10%;
-    width: 200px;
-}
-
-.main{
-    margin: auto;
-    text-align: center;
-    padding: 50px;
-    background: rgb(30,26,81);
-    background: linear-gradient(180deg, rgba(30,26,81,1) 0%, rgba(16,14,46,1) 100%);
-    background: size 100%;
- 
-}
-
 .box{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     width: 50%;
-justify-content: center;}
+    justify-content: center;
+}
 
 .images{
     text-align: center;
-    font-size: small;
     font-family: 'Arial';
 }
+
+.screenshot{
+    border-radius:  10%;
+    width:40%;
+}
+
 
 .imageContainer{
     display: flex;   
     margin: auto;
     align-items: center;
-    width: 50%;
+    gap: 20px;
+    width: 80%;
     flex-direction: row;
     margin-bottom: 50px;
     justify-content: center;
