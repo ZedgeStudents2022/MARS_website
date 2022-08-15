@@ -82,3 +82,9 @@ h4{
     width: 100%;
     text-align: center;
 }
+
+.gradient{
+    height: 100px;
+    background-color: #161616; /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgba(16,14,46,1), #161616);
+}
